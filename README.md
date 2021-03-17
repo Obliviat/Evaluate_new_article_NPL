@@ -111,8 +111,7 @@ We're ready to go! The API has a lot of different endpoints you can take a look 
 
 I won't provide further examples here, as it's up to you to create the various requests and make sure your server is set up appropriately.
 
-## After the Aylien API
-
+<<<<<<< HEAD
 Once you are hooked up to the Aylien API, you are most of the way there! Along with making sure you are following all the requirements in the project rubric in the classroom, here are a few other steps to make sure you take.
 
 - Parse the response body to dynamically fill content on the page.
@@ -122,4 +121,4 @@ Once you are hooked up to the Aylien API, you are most of the way there! Along w
 
 ## Deploying
 
-A great step to take with your finished project would be to deploy it! Unfortunately its a bit out of scope for me to explain too much about how to do that here, but checkout [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com/) for some really intuitive free hosting options.
+# A great step to take with your finished project would be to deploy it! Unfortunately its a bit out of scope for me to explain too much about how to do that here, but checkout [Netlify](https://www.netlify.com/) or [Heroku](https://www.heroku.com/) for some really intuitive free hosting options.
