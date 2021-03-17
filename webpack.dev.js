@@ -3,7 +3,6 @@ const webpack = require("webpack")
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 
-
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
@@ -18,6 +17,10 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader", "postcss-loader"],
       }
     ]
   },
@@ -28,3 +31,4 @@ module.exports = {
     })
   ]
 }
+
