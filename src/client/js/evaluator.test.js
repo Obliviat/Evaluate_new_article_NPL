@@ -15,6 +15,6 @@ test('evaluate url for polarity and subjectivity', () => {
     polarity_confidence: 0.8764857649803162,
     subjectivity_confidence: 1
   });
-  // expect(document.getElementById('polarity').innerHTML).toBe('Polarity: positive');
+   expect(document.getElementById('polarity').innerHTML).toBe('Polarity: positive');
   expect(document.getElementById('subjectivity').innerHTML).toBe('Subjectivity: subjective');
 });
