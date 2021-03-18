@@ -20,8 +20,10 @@ const requestAPI = async (mysite = '') => {
 }
 
 export const updateUI = (myData) => {
-    document.getElementById('polarity').innerHTML = "polarity: " + myData.polarity;
-    document.getElementById('subjectivity').innerHTML = "Subjectivity: " + myData.subjectivity;
+    document.getElementById('subjectivity').innerHTML = "subjectivity: " + myData.subjectivity;
+    document.getElementById('confidence').innerHTML = "confidence:" + myData.confidence
+    document.getElementById('agreement').innerHTML = "agreement:" + myData.agreement
+    document.getElementById('irony').innerHTML = "irony:" + myData.irony
 }
 
 

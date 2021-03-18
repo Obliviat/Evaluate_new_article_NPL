@@ -9,7 +9,7 @@ test('evaluate url for polarity and subjectivity', () => {
     </section>
     `;
   updateUI({
-    polarity: 'positive',
+    // polarity: 'positive',
     subjectivity: 'subjective',
     text: 'Friends is the best tv serie..',
     polarity_confidence: 0.8764857649803162,

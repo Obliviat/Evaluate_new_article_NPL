@@ -30,25 +30,13 @@ app.listen(8081, function () {
 
 
 app.post('/test', (req, res) => {
-    console.log(req.body.mysite)
-    textapi.sentiment({
-        url: req.body.mysite
-    }, function (error, response) {
-        if (error === null) {
-            console.log(response);
-            res.send(response);
-        }
-    });
-});
-
-app.post('/test', (req, res) => {
 
     axios.post("https://api.meaningcloud.com/sentiment-2.1", {
 
     },
         {
             params: {
-                key: "process.env.API_KEY",
+                key: process.env.API_KEY,
                 lang: "en",
                 txt: req.body.mysite
             }
