@@ -11,8 +11,9 @@ We will build a web tool that allows users to run Natural Language Processing (N
 - Build tool - Webpack. Using webpack, we will set up the app to have dev and prod environments, each with their own set of tools and commands.
 - External script - Service Worker
 - External API - MeaningCloud
+- [I'm an inline-style link](https://www.google.com)
 
-For the MeaningCloud API: You can find the API [here] (https://www.meaningcloud.com/es). Once you create an account with MeaningCloud, you will be given a license key to start using the API. This API does not require an SDK, so you can skip ahead to step 4 in the instructions.
+For the MeaningCloud API: You can find the API [here](https://www.meaningcloud.com/es). Once you create an account with MeaningCloud, you will be given a license key to start using the API. This API does not require an SDK, so you can skip ahead to step 4 in the instructions.
 
 ## Getting started
 
